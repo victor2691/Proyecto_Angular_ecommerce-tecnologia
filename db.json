@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Equipos portatiles para trabajo y gaming."
+    },
+    {
+      "id": "cat-2",
+      "name": "Accesorios",
+      "slug": "accesorios",
+      "description": "Perifericos y complementos para tu setup."
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Laptop Pro 14",
+      "categoryId": "cat-1",
+      "price": 1499,
+      "stock": 8,
+      "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900",
+      "featured": true
+    },
+    {
+      "id": "prod-2",
+      "name": "Mouse Inalambrico",
+      "categoryId": "cat-2",
+      "price": 39,
+      "stock": 45,
+      "imageUrl": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=900",
+      "featured": false
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "fullName": "Admin Ecommerce",
+      "email": "admin@ecommerce.local",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": "user-2",
+      "fullName": "Cliente Demo",
+      "email": "cliente@ecommerce.local",
+      "role": "customer",
+      "active": true
+    }
+  ]
+}
